@@ -1,4 +1,4 @@
-:- consult('lexicon.pl').
+:- consult('./lexicon.pl').
 
 production(P) :-
     terminal(P).
