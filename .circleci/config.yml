@@ -9,4 +9,4 @@ jobs:
 
     - run:
         name: run tests
-        command: swipl -s test/all_test.pl  -g all_tests
+        command: swipl -s test/all_test.pl -t all_tests
